@@ -4,6 +4,11 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { useState, useEffect} from 'react';
+import dr_logo from '../assets/img/dr_logo.png'
+import git_icon from '../assets/img/dr_logo.png'
+import email_icon from '../assets/img/dr_logo.png'
+import logo_icon from '../assets/img/dr_logo.png'
+
 
 
 export const NavBar= () => {
@@ -32,7 +37,7 @@ export const NavBar= () => {
     <Navbar expand="lg" className= {scrolled ?  "scrolled": "" } >
       <Container>
         <Navbar.Brand href="#home" className ={ activeLink === 'home' ? 'active-navbar-link' : 'navbar-link'} onClick ={() => onUpdateActiveLink ('home')}>
-            <img src= {''} alt="Logo"/>  
+            <img src= {dr_logo} alt="Logo"/>  
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" >
             <span className= "navbar-toggle-icon" ></span>

@@ -1,0 +1,17 @@
+/* CUSTOM FONTS*/
+
+@font-face {
+  font-family: Roboto1;
+  src: url('./assets/fonts/Roboto1.ttf');
+  font-weight: 400;
+}
+@font-face {
+  font-family: Roboto2;
+  src: url('./assets/fonts/Roboto2.ttf');
+  font-weight: 500;
+}
+@font-face {
+  font-family: Roboto3;
+  src: url('./assets/fonts/Roboto3.ttf');
+  font-weight: 700;
+}
